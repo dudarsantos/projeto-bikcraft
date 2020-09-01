@@ -1,4 +1,5 @@
-/* estilos gerais*/
+/* Estilos Gerais */
+
 body {
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -26,13 +27,13 @@ img {
 }
 
 .btn:hover {
-	color: #FFF;
-    border-color: #FFF;
+	color: #fff;
+	border-color: #fff;
 }
 
 .btn.btn-preto:hover {
-	color: #000 ;
-	border-color: #000 ;
+	color: #000;
+	border-color: #000;
 }
 
 .subtitulo {
@@ -74,14 +75,13 @@ img {
 	margin: 8px 0;
 }
 
-
-/*Header*/
+/* Header */
 
 .header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	background: #fec63e;
+	background: #fec63e; /* Amarelo */
 	padding: 15px 0;
 	z-index: 10;
 }
@@ -110,12 +110,12 @@ img {
 	color: #FFF;
 }
 
-.hearder_menu ul li a.menu_ativo {
+.header_menu ul li a.menu_ativo {
 	color: #FFF;
 }
 
+/* Introdução */
 
-/*Introdução*/
 .introducao {
 	width: 100%;
 	height: 380px;
@@ -124,7 +124,6 @@ img {
 	margin-top: 92px;
 	text-align: center;
 	padding-top: 80px;
-
 }
 
 .introducao h1 {
@@ -150,9 +149,10 @@ img {
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: #FFF;
+	background: #fff;
 	margin: 14px auto 10px auto;
 }
+
 .quote-externo cite {
 	font-style: normal;
 	font-weight: bold;
@@ -160,14 +160,14 @@ img {
 	letter-spacing: .1em;
 }
 
-/*Introdução Interna*/
+/*Introducao Interna*/
 
 .introducao-interna {
 	width: 100%;
 	margin-top: 92px;
-	height:160px;
+	height: 160px;
 	text-align: center;
-	color: #FFF;
+	color: #fff;
 	padding-top: 30px;
 }
 
@@ -182,10 +182,10 @@ img {
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: #FFF;
+	background: #fff;
 	margin: 6px auto 10px auto;
-	
 }
+
 
 /*Produtos*/
 
@@ -193,24 +193,26 @@ img {
 	padding: 60px 0;
 }
 
-.produtos_lista li {
+.produtos_lista li{
 	background: #fec63e;
+	text-align: center;
 }
 
+/* Necessário para centralizar as imagens */
 .produtos_lista li img {
 	margin: 0 auto;
 }
 
-
-.produtos_lista li h3 {
+.produtos_lista li h3{
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 25px;
 	text-transform: uppercase;
+	letter-spacing: .1em;
 	margin-top: 20px;
 }
 
-.produtos_lista li h3::after {
+.produtos_lista li h3:after{
 	content: "";
 	display: block;
 	width: 60px;
@@ -218,10 +220,10 @@ img {
 	background: #000;
 	margin: 2px auto;
 }
+
 .produtos_lista li p {
 	padding: 10px 20px 20px 20px;
 }
-
 
 .produtos_icone {
 	background: #000;
@@ -234,38 +236,40 @@ img {
 	clear: both;
 }
 
-.call p {
+.call p{
 	margin-bottom: 20px;
 }
 
-/*Portifólio*/
+/*Portfólio*/
 
-.portifolio {
+.portfolio {
 	width: 100%;
 	background: #000;
 	padding: 40px 0;
 }
 
-.portifolio .subtitulo {
+.portfolio .subtitulo {
 	color: #fec63e;
 }
 
-.portifolio .subtitulo:after {
+.portfolio .subtitulo:after {
 	background: #fec63e;
 }
 
-.portifolio_lista li:last-child {
+.portfolio_lista li:last-child {
 	margin-top: 20px;
 }
- .portifolio .call p {
-	 color: #FFF;
- }
 
- /*Qualidade*/
+.portfolio .call p {
+	color: #fff;
+}
 
- .qualidade {
-	 padding: 60px 0;
- }
+/*Qualidade*/
+
+.qualidade {
+	padding: 60px 0;
+}
+
 .qualidade:after {
 	content: "";
 	width: 634px;
@@ -277,29 +281,31 @@ img {
 	right: 162px;
 	z-index: -1;
 }
- .qualidade img {
-	 margin: 0 auto;
- }
 
- .qualidade_lista {
+.qualidade img{
+	margin: 0 auto;
+}
+
+.qualidade_lista {
 	padding-top: 20px;
-	overflow: auto; /* clear-fix*/
- }
+	overflow: auto; /* clear-fix */
+}
 
- .qualidade_lista li {
-	 text-align: center;
+.qualidade_lista li {
+	text-align: center;
 	padding: 0 40px;
- }
+}
 
- .qualidade_lista li h3 {
+.qualidade_lista li h3{
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 25px;
 	text-transform: uppercase;
+	letter-spacing: .1em;
 	margin-top: 20px;
 }
 
-.qualidade_lista li h3::after {
+.qualidade_lista li h3:after{
 	content: "";
 	display: block;
 	width: 60px;
@@ -307,14 +313,13 @@ img {
 	background: #000;
 	margin: 6px auto;
 }
-	
 
 /*Quebra*/
 
 .quebra {
 	width: 100%;
 	height: 220px;
-	background: url("../img/bg-footer.jpg") no-repeat;
+	background: url("../img/bg-footer.jpg") no-repeat center;
 	background-size: cover;
 	text-align: center;
 	padding-top: 40px;
@@ -329,7 +334,7 @@ img {
 .footer {
 	width: 100%;
 	background: #000;
-	color: #FFF;
+	color: #fff;
 	padding: 20px 0;
 }
 
@@ -358,7 +363,7 @@ img {
 .footer_contato ul li {
 	font-size: 14px;
 	line-height: 20px;
-    font-family: Georgia, "Times New Roman", serif;
+	font-family: Georgia, "Times New Roman", serif;
 }
 
 .footer_redes ul li {
@@ -369,11 +374,11 @@ img {
 .footer_redes ul li a {
 	border: 3px solid #fec63e;
 	display: block;
-    padding: 10px;
+	padding: 10px;
 }
 
 .footer_redes ul li a:hover {
-	border-color: #FFF;
+	border-color: #fff;
 }
 
 .copy {
